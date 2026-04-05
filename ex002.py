@@ -1,0 +1,10 @@
+# Exercício 002 - Curso em Vídeo - destrinchando  caracteres
+n=input('Digite alguma coisa: ')
+print('O tipo primitivo desse numero é',type(n)) 
+print('So tem espaço?', n.isspace()) 
+print('É um numero', n.isnumeric()) 
+print('É alfabeto', n.isalpha()) 
+print('É alfanumerico', n.isalnum())
+print('Esta em maiuscula', n.isupper())
+print('Esta em minuscula', n.islower())
+print('Esta capitalizada', n.istitle())
